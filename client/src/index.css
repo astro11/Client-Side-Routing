@@ -6,15 +6,31 @@ body {
 }
 
 .movie-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
   background-color: #fff;
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24);
   padding: 1rem;
   margin: 1rem;
   cursor: pointer;
+ }
+
+ .movie-card a {
+  text-decoration: none;
 }
+
+ .movie-list a {
+  text-decoration: none;  
+ }
 
 .movie-director {
   padding: 4px 0;
-  font-size: 0.8rem;
+  font-size: 0.8rem;  
 }
+
+.cards {
+  border: solid black 3px;
+}
+
