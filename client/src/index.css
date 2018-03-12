@@ -17,6 +17,10 @@ body {
   cursor: pointer;
  }
 
+ .movie-card h2 {
+   color: #8E44AD;
+ }
+ 
  .movie-card a {
   text-decoration: none;
 }
