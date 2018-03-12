@@ -27,7 +27,7 @@ export default class MovieCard extends React.Component {
     return (
       <div className="movie-card cards">
       <Link to="/">
-        <div>Go Back Home</div>
+        <button>Back Home</button>
       </Link>
         <h2>{title}</h2>
         <div className="movie-director">
