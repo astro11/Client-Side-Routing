@@ -17,8 +17,13 @@ body {
   cursor: pointer;
  }
 
+ .movie-card:hover {
+  background: #00d2d3;
+  color: #fff;
+}
+
  .movie-card h2 {
-   color: #8E44AD;
+   color: #341f97;
  }
  
  .movie-card a {
